@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import './App.css'
 import { useAppDispatch, useAppSelector } from './hooks/redux'
 import { fetchUsers } from './store/reducers/ActionCreators'
